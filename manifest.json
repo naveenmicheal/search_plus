@@ -6,8 +6,11 @@
   	"content_scripts": [
    {
      "matches":["https://www.google.com/*"],
-     "js": ["content.js"]
+     "js": ["content.js"],
+     "css":["main.css"],
+     "run_at":    "document_start"
    }
+   
  ],
     "background": {
       "scripts": ["background.js"],
@@ -20,7 +23,8 @@
       }
     },
   	"permissions" :[
-  	"storage"
+  	"storage",
+    "tabs"
   ]
 
 }

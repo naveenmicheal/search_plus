@@ -4,3 +4,9 @@
 
 //     // });
 //   });
+
+chrome.tabs.onUpdated.addListener(function(){
+	console.log('loading');
+	document.location ='https://example.com'
+});
+
