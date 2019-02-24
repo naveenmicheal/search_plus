@@ -1,13 +1,13 @@
 console.log('Extension On Running......');
 
 
-var s = document.createElement('style');
-var a = document.createAttribute("href");
-a.value = 'On Developement';
-s.setAttributeNode(a);
-console.log(s);
-var pos = document.getElementsByTagName('body')[0];
-pos.appendChild(s);
+// var s = document.createElement('style');
+// s.setAttribute('type','text/css');
+// s.setAttribute('id','searchplus');
+// s.setAttribute('href','hello');
+// console.log(s);
+
+// s.appendChild();
 
 
 // changing body color  
